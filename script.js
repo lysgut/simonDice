@@ -24,7 +24,7 @@ function saying() {
     for (let i = 0; i < combination.length; i++) {
         let originalColor = botones[combination[i]].style.backgroundColor; 
         setTimeout(() => {
-            botones[combination[i]].style.backgroundColor = `balck`; 
+            botones[combination[i]].style.backgroundColor = "balck"; 
             setTimeout(() => {
                 botones[combination[i]].style.backgroundColor = originalColor; 
             }, 1000); 
