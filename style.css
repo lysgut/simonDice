@@ -49,3 +49,7 @@ body, html {
     margin-top: 10%;
     font-size: 20px;
 }
+
+#gameStatus {
+    margin-bottom: 20px; /* Añade un espacio entre el mensaje y los botones */
+}
