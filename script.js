@@ -27,8 +27,8 @@ function saying() {
             botones[combination[i]].style.backgroundColor = "black"; 
             setTimeout(() => {
                 botones[combination[i]].style.backgroundColor = originalColor; 
-            }, 1000); 
-        }, i * 2000); 
+            }, 500); 
+        }, i * 1000); 
     }
 }
 
