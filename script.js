@@ -15,7 +15,7 @@ function ableButtons(x) {
 }
 
 function addCombination() {
-    combination.unshift(random(4));
+    combination.push(random(4));
     console.log(combination);
     return combination;
 }
